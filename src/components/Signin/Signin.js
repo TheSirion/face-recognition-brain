@@ -23,7 +23,7 @@ class Signin extends React.Component {
   // and receives the response. 
   // If it's successful, the route is changed to 'home'
   onSubmitSignIn = () => {
-    fetch('http://localhost:3000/signin', {
+    fetch('https://polar-cove-59136.herokuapp.com/signin', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
